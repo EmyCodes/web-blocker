@@ -10,19 +10,26 @@ host_temp = "hosts"
 # redirect = ip_addresses
 
 while True:
-    if (dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 22)):
-        print("Working Hours.....")
-        with open(host_temp, 'r+') as f:
+    if (dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 23)):
+        print("Working Hours....")
+        with open(host_temp, mode='r+', encoding='utf-8') as f:
             content = f.read()
-            print(content)
+            # print(content)
             for website in web_list:
                 if website in content:
-                    pass
+                    print(content)
                 else:
                     for ip_address in ip_addresses:
                         # redirect = ip_address
                         f.write(ip_address + "\t" + website + "\n")
     else:
+        with open(host_temp, mode='r+', encoding='utf-8') as f:
+            content = f.readlines()
+            f.seek(0)
+            for line in content:
+                if not any(website in line for website in web_list):
+                    f.write(line)
+            f.truncate()
         print("Fun hours...")
         
     time.sleep(5)
