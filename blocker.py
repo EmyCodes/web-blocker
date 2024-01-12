@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import time
-from platform import system as sys
 from datetime import datetime as dt
+from platform import system as sys
 
 from src import ip_addresses
 from src import web_list
