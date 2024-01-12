@@ -17,13 +17,18 @@ This project is licensed under the [MIT License](LICENSE).
 ### Linux
 
 1. Open a terminal.
-2. Navigate to the project directory:
+
+2. Clone this repo 
+    ```bash
+    git clone https://github.com/EmyCodes/web-blocker.git
+    ```
+3. Navigate to the project directory:
 
     ```bash
-    cd ~/Desktop/Portfolios/website_blocker
+    cd ~/Desktop/web-blocker
     ```
 
-3. Run the script:
+4. Run the script:
 
     ```bash
     python3 blocker.py
@@ -32,13 +37,18 @@ This project is licensed under the [MIT License](LICENSE).
 ### Windows
 
 1. Open a command prompt.
-2. Navigate to the project directory:
+
+2. Clone this repo 
+    ```bash
+    git clone https://github.com/EmyCodes/web-blocker.git
+    ```
+3. Navigate to the project directory:
 
     ```bash
-    cd C:\Users\emycodes\Desktop\Portfolios\website_blocker
+    cd C:\Users\emycodes\Desktop\web-blocker
     ```
 
-3. Run the script:
+4. Run the script:
 
     ```bash
     python blocker.py
