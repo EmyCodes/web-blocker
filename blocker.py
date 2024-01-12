@@ -3,8 +3,8 @@ import time
 from platform import system as sys
 from datetime import datetime as dt
 
-from ip_addresses import ip_addresses
-from web_to_be_blocked import web_list
+from src import ip_addresses
+from src import web_list
 
 if sys == "Windows":
     host_temp = r"C:\Windows\System32\drivers\etc\hosts"
