@@ -10,9 +10,9 @@ if sys == "Windows":
     host_temp = r"C:\Windows\System32\drivers\etc\hosts"
 # redirect = ip_addresses
 else:
-    host_temp = "/etc/hosts"
+    host_temp = r"/etc/hosts"
 while True:
-    if (dt(dt.now().year, dt.now().month, dt.now().day, 8, 59) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 5, 59)):
+    if (dt(dt.now().year, dt.now().month, dt.now().day, 8, 59) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 17, 59)):
         print("Working hours...")
         with open(host_temp, mode='r+', encoding='utf-8') as f:
             content = f.read()
