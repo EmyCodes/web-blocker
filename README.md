@@ -86,7 +86,7 @@ Now, the script will run automatically at system startup.
 
 ## Configuration
 
-Edit the `web_to_be_blocked.py` file to add or remove websites from the blocklist.
+Edit the `src/web_to_be_blocked.py` file to add or remove websites from the blocklist.
 
 ## Contributing
 
