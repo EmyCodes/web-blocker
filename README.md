@@ -61,10 +61,10 @@ To run the script at system startup, follow these steps:
 ### Linux
 
 1. Open a terminal.
-2. Type the following command to open the crontab editor:
+2. Type the following command to open the crontab editor (you may use super priviledge):
 
     ```bash
-    crontab -e
+    sudo crontab -e
     ```
 
 3. Add the following line to run the script at startup:
