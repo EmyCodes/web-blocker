@@ -6,7 +6,7 @@ Website Blocker is a simple Python script that blocks specified websites during 
 
 ## Author
 
-- Author: [Emycodes](https://github.com/emycodes)
+- Author: [EmyCodes](https://github.com/emycodes)
 
 ## License
 
@@ -94,4 +94,4 @@ If you want to contribute to this project, feel free to open an issue or submit 
 
 ## Acknowledgments
 
-Special thanks to [Emycodes](https://github.com/emycodes) for creating this project.
+Special thanks to [EmyCodes](https://github.com/emycodes) for creating this project.
